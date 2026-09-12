@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 603446202}
   - component: {fileID: 603446201}
   - component: {fileID: 603446200}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: DynamicCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,7 +538,7 @@ GameObject:
   - component: {fileID: 1983375057}
   - component: {fileID: 1983375063}
   - component: {fileID: 1983375062}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TriggerZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
