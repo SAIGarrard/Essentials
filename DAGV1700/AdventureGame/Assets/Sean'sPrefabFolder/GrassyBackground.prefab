@@ -56,7 +56,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrassyBackground
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1718544319650630543, guid: 8f1b8efa346ac454682e1e0c7c472f42, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
