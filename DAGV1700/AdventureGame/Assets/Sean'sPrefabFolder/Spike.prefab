@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2754528778755608746}
   - component: {fileID: 8633555895908120455}
   - component: {fileID: -1158523007347538026}
-  m_Layer: 6
+  m_Layer: 16
   m_Name: Spike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4939,6 +4939,30 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 5
           m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 067abc117753c7f408166402feb78d4f, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: -0.3
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8553732337590108851, guid: 54bcf93fd2344c64c90d92c2291aae47, type: 3}
+        m_TargetAssemblyTypeName: ParkersSimpleSliderBehaviour, Assembly-CSharp
+        m_MethodName: UpdateWithFloatData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: -0.3
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
