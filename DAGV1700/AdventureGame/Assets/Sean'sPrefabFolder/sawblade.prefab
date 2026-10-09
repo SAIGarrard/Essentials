@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &301300740882208452
+--- !u!1 &1926445347931813319
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,14 +8,14 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3647559892984771609}
-  - component: {fileID: 5869301617852362981}
-  - component: {fileID: 4327350535915523206}
-  - component: {fileID: 6449017223608381741}
-  - component: {fileID: 5323759404862872638}
-  - component: {fileID: 4697837378922928102}
-  - component: {fileID: 7506160262749779995}
-  - component: {fileID: 7438397822389262684}
+  - component: {fileID: 6478018753961104831}
+  - component: {fileID: 7832707564600921499}
+  - component: {fileID: 4385177266353056564}
+  - component: {fileID: 9711538415744093}
+  - component: {fileID: 6591136941783982704}
+  - component: {fileID: 346547101861101272}
+  - component: {fileID: 5827185811409933398}
+  - component: {fileID: 6056645035063364406}
   m_Layer: 16
   m_Name: sawblade
   m_TagString: Untagged
@@ -23,28 +23,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3647559892984771609
+--- !u!4 &6478018753961104831
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301300740882208452}
+  m_GameObject: {fileID: 1926445347931813319}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.06, y: -2.9, z: 0}
+  m_LocalPosition: {x: 2.9865322, y: -2.3732438, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 0.05}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5869301617852362981
+--- !u!212 &7832707564600921499
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301300740882208452}
+  m_GameObject: {fileID: 1926445347931813319}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -93,13 +93,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &4327350535915523206
+--- !u!65 &4385177266353056564
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301300740882208452}
+  m_GameObject: {fileID: 1926445347931813319}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -114,13 +114,13 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.38, y: 0.38, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6449017223608381741
+--- !u!114 &9711538415744093
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301300740882208452}
+  m_GameObject: {fileID: 1926445347931813319}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7c4c067838ab4f4daf3ceea190e0b91, type: 3}
@@ -132,7 +132,7 @@ MonoBehaviour:
   triggerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5323759404862872638}
+      - m_Target: {fileID: 6591136941783982704}
         m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
         m_MethodName: Emit
         m_Mode: 3
@@ -144,7 +144,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 7506160262749779995}
+      - m_Target: {fileID: 5827185811409933398}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
         m_Mode: 5
@@ -168,7 +168,7 @@ MonoBehaviour:
           m_StringArgument: Hit
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8553732337590108851, guid: 54bcf93fd2344c64c90d92c2291aae47, type: 3}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ParkersSimpleSliderBehaviour, Assembly-CSharp
         m_MethodName: UpdateWithFloatData
         m_Mode: 1
@@ -180,13 +180,13 @@ MonoBehaviour:
           m_StringArgument: Hit
           m_BoolArgument: 0
         m_CallState: 2
---- !u!198 &5323759404862872638
+--- !u!198 &6591136941783982704
 ParticleSystem:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301300740882208452}
+  m_GameObject: {fileID: 1926445347931813319}
   serializedVersion: 8
   lengthInSec: 5
   simulationSpeed: 1
@@ -4903,14 +4903,14 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &4697837378922928102
+--- !u!199 &346547101861101272
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301300740882208452}
+  m_GameObject: {fileID: 1926445347931813319}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -4980,14 +4980,14 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!95 &7506160262749779995
+--- !u!95 &5827185811409933398
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301300740882208452}
+  m_GameObject: {fileID: 1926445347931813319}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 5ac8488c58b8e044cb4ddea07182d99f, type: 2}
@@ -5002,13 +5002,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7438397822389262684
+--- !u!114 &6056645035063364406
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301300740882208452}
+  m_GameObject: {fileID: 1926445347931813319}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a28a400391344b9c88e28b4820b5ed7, type: 3}
@@ -5033,7 +5033,7 @@ MonoBehaviour:
   triggerExitEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7506160262749779995}
+      - m_Target: {fileID: 5827185811409933398}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: ResetTrigger
         m_Mode: 5
