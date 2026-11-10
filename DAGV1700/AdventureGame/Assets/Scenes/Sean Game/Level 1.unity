@@ -479,7 +479,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 77b9a3f76eac5034aa5982ff03246e9e, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 3c5a94402c566914f82ee13e90662a4c, type: 2}
   m_BuildHeightMesh: 0
 --- !u!64 &39805508
 MeshCollider:
@@ -565,8 +565,8 @@ Transform:
   m_GameObject: {fileID: 39805506}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071064, y: -0, z: -0, w: 0.7071072}
-  m_LocalPosition: {x: -4.58, y: 5.07, z: 0}
-  m_LocalScale: {x: 1.2604418, y: 1, z: 0.89467615}
+  m_LocalPosition: {x: -5.51, y: 5.09, z: 0}
+  m_LocalScale: {x: 1.1028866, y: 1, z: 0.664297}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -7687,6 +7687,7 @@ GameObject:
   - component: {fileID: 606635868}
   - component: {fileID: 606635867}
   - component: {fileID: 606635866}
+  - component: {fileID: 606635869}
   m_Layer: 10
   m_Name: Beeagent
   m_TagString: Untagged
@@ -7745,6 +7746,28 @@ Transform:
   - {fileID: 1859157403}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &606635869
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606635865}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0b211d83a2766a84ab16b6be183951a1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &615446819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8325153667233268767, guid: 33e7e048dca7f6d4f865857137a2ca3a, type: 3}
@@ -13536,7 +13559,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.36, y: -1.865, z: 0}
-  m_LocalScale: {x: 0.6266816, y: 1, z: 0.36984494}
+  m_LocalScale: {x: 0.59938693, y: 1, z: 0.36984494}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -38537,6 +38560,7 @@ GameObject:
   - component: {fileID: 1859157404}
   - component: {fileID: 1859157406}
   - component: {fileID: 1859157405}
+  - component: {fileID: 1859157407}
   m_Layer: 10
   m_Name: BeeArt
   m_TagString: Untagged
@@ -38645,6 +38669,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 067abc117753c7f408166402feb78d4f, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: -0.2
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4393829306654918729}
+        m_TargetAssemblyTypeName: ParkersSimpleSliderBehaviour, Assembly-CSharp
+        m_MethodName: UpdateWithFloatData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: -0.2
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &1859157406
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38666,6 +38714,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.13, y: 0.22, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &1859157407
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859157402}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eede800e68711824c9e8c88b7655dc33, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1864962711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39403,6 +39473,7 @@ GameObject:
   - component: {fileID: 1985409784}
   - component: {fileID: 1985409786}
   - component: {fileID: 1985409785}
+  - component: {fileID: 1985409787}
   m_Layer: 10
   m_Name: Rabbit
   m_TagString: Untagged
@@ -39546,6 +39617,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 067abc117753c7f408166402feb78d4f, type: 2}
+        m_TargetAssemblyTypeName: FloatData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: -0.2
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4393829306654918729}
+        m_TargetAssemblyTypeName: ParkersSimpleSliderBehaviour, Assembly-CSharp
+        m_MethodName: UpdateWithFloatData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
+          m_FloatArgument: -0.2
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &1985409786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39567,6 +39662,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.22, y: 0.27, z: 0.2}
   m_Center: {x: 0, y: -0.06, z: 0}
+--- !u!95 &1985409787
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985409780}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ebdc45b385a4f3a498ea33e7af8a33ec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1993463973
 PrefabInstance:
   m_ObjectHideFlags: 0
